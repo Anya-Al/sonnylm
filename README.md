@@ -5,6 +5,9 @@ long-haired orange cat: lazy, extremely vocal, hates being picked up, has furry 
 paws," sleeps only on dirty laundry, and loves exactly two things: tuna and mom
 (mom because she brings the tuna).
 
+<img width="500" height="450" alt="IMG_6128" src="https://github.com/user-attachments/assets/2c228bfb-369e-4de4-987a-ca55768c9b58" />
+
+
 It's a 6-layer vanilla transformer trained from scratch on the
 [**AnyaAl/sonnylm_generic**](https://huggingface.co/datasets/AnyaAl/sonnylm_generic)
 dataset (60K single-turn cat conversations across 60 topics). Re-skinned from
