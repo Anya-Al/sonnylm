@@ -23,11 +23,10 @@ Sonny> mom is the only good human. she brings the tuna. that is love.
 
 ## Quickstart (Colab, ~5 min on a free T4)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/sonnylm/blob/main/SonnyLM_Train.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anya-Al/sonnylm/blob/main/SonnyLM_Train.ipynb)
 
-1. Click the badge above (update `YOUR_USERNAME` after you push this repo).
-2. Runtime → Change runtime type → **T4 GPU**.
-3. **Runtime → Run all.** It downloads the dataset, trains a BPE tokenizer, trains the
+1. Runtime → Change runtime type → **T4 GPU**.
+2. **Runtime → Run all.** It downloads the dataset, trains a BPE tokenizer, trains the
    model, tests it, and (optionally) uploads the weights to Hugging Face.
 
 ## Train locally
@@ -42,7 +41,9 @@ python inference.py         # chat with Sonny in your terminal
 ```
 
 ## Run it in your browser (no install)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/sonnylm/blob/main/SonnyLM_Train.ipynb)
+
+[![Open In Browser](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://anya-al.github.io/sonnylm/)
 
 There's a fully client-side chat demo in [`docs/`](docs/) — it runs the quantized ONNX
 model and a byte-level BPE tokenizer entirely in your browser via WebAssembly. Once
