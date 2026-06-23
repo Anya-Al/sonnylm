@@ -42,6 +42,7 @@ python inference.py         # chat with Sonny in your terminal
 ```
 
 ## Run it in your browser (no install)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/sonnylm/blob/main/SonnyLM_Train.ipynb)
 
 There's a fully client-side chat demo in [`docs/`](docs/) — it runs the quantized ONNX
 model and a byte-level BPE tokenizer entirely in your browser via WebAssembly. Once
@@ -53,7 +54,7 @@ To turn it on:
    `sonnylm.tar.gz` the notebook produces (or from your Hugging Face model repo).
 2. Drop both files into the `docs/` folder, next to `index.html`.
 3. On GitHub: **Settings → Pages → Source: Deploy from a branch → `main` / `/docs` → Save.**
-4. Wait ~1 minute, then open `https://anya-al.github.io/sonnylm/`.
+4. Wait ~1 minute, then open `[(https://anya-al.github.io/sonnylm/)]`.
 
 Prefer not to commit the 9 MB model to git? Leave `docs/` model-free and instead edit the
 two URL lines at the top of `docs/index.html` to point at your Hugging Face repo, e.g.
