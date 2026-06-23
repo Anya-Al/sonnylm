@@ -42,8 +42,8 @@ python inference.py         # chat with Sonny in your terminal
 
 ## Run it in your browser (no install)
 
-[![Open In Browser](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://anya-al.github.io/sonnylm/)
+  <a href="https://anya-al.github.io/sonnylm/"><img src="https://img.shields.io/badge/Try_in-Browser-64ffda?style=for-the-badge&logo=webassembly&logoColor=white" alt="Browser Demo"/></a>
+</p>
 
 There's a fully client-side chat demo in [`docs/`](docs/) — it runs the quantized ONNX
 model and a byte-level BPE tokenizer entirely in your browser via WebAssembly. Once
