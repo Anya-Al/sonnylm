@@ -1,0 +1,10 @@
+torch
+tokenizers
+datasets
+huggingface_hub
+numpy
+tqdm
+# export to ONNX (section 7 of the notebook)
+onnx
+onnxruntime
+onnxscript
